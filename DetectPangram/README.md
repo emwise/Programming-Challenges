@@ -34,8 +34,8 @@ function isPangram(string){
 The best solution utilizes [Array.prototype.every()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every) which runs the provided function on every element in the array. The provided function is a test and returns a boolean. This makes .every() the perfect native function to use because the problem also requires a boolean result. The provided function, in this case:
 ```
 function(x){
-    return string.indexOf(x) !== -1;
-    }
+  return string.indexOf(x) !== -1;
+}
 ```
 tests whether or not each letter in the aphabet string provided exists within the parameter string. If it does the function will return true, and if it doesnt  indexOf() will return -1 and make the statement false. This will make the entire result of .every() false and therefore isPangram() will return false. 
 
