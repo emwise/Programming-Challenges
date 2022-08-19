@@ -1,6 +1,6 @@
 # Challenge Problems
 
-This repository contains solutions to challenge problems I solved from various websites like [codewars](codewars.com). Each problem folder contains the original problem and my personal solution. The README file for each problem will also contain an explaination of my thought process while I solved the problem and I will compare my solution with the most accepted answer. 
+This repository contains solutions to challenge problems I solved from various websites like [codewars](https://www.codewars.com/). Each problem folder contains the original problem and my personal solution. The README file for each problem will also contain an explaination of my thought process while I solved the problem and I will compare my solution with the most accepted answer. 
 
 ## Technologies Used 
 
