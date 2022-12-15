@@ -11,7 +11,7 @@ Given a string, detect whether or not it is a pangram. Return True if it is, Fal
 
 I originally wanted to find a function which counted the number of unique characters in the string and compare the result to 26, the number of unique characters in the alphabet. If the number of unique characters in the string is equal to 26 I would return true, the string is a pangram. I used [Sets](https://bobbyhadz.com/blog/javascript-count-unique-characters-in-string#:~:text=To%20count%20the%20unique%20characters,unique%20characters%20in%20the%20string.) to do this at first, 
 ```
-const uniqueCount = new Set(str).size;
+const uniqueCount = new Set(str).size; 
 ```
 but I quickly ran into an issue of needing to remove all of the characters from the string that aren't letters. At this point I abandoned this idea and created my submitted solution.
 
