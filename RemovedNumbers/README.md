@@ -53,9 +53,7 @@ import java.util.LinkedList;
 public class RemovedNumbers {
   /*
   We desire: ab = 1 + ... + n - a - b
-  Take advantage of b = sum - a
-  											-------
-                         a + 1
+  Take advantage of b = (sum - a) / (a + 1)
   */
 	public static LinkedList<long[]> removNb(long n) {
     LinkedList<long[]> numbers = new LinkedList<long[]>();
